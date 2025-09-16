@@ -1,0 +1,40 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer{
+background-color: blueviolet;
+color: aliceblue;
+padding: 10px;
+text-align: center;
+font-size: 1.5rem;
+}
+
+main {
+width: 400px;
+margin:auto
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: #222;
+
+}
+
+section{
+    margin: 20px;
+    background-color: bisque;
+    
+}
