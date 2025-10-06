@@ -3,8 +3,8 @@
     --secondary-color: #0d5a33;
     --accent1-color: #243835;
     --accent2-color: #000;
-    --heading-font: "Helvetica bold", "Georgia", serif;
-    --body-font: :arial, Helvetica, sans-serif;
+    --heading-font: "Helvetica", "Georgia", serif;
+    --body-font: :arial, Helvetica, sans-serif; 
 }
 
 *{
