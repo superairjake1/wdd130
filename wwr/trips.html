@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Browse our exciting rafting trips for all skill levels. Choose from beginner-friendly floats to extreme whitewater adventures.">
+    <title>Our Trips - Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="images/logo.jpg" alt="Rafting Adventures Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Our Rafting Adventures</h1>
+            <p>From gentle floats to extreme whitewater experiences, we have the perfect trip for you.</p>
+        </section>
+
+        <!-- Trip Filters/Categories -->
+        <section class="trip-filters">
+            <h2>Filter by Difficulty</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Trips</button>
+                <button class="filter-btn" data-filter="beginner">Beginner</button>
+                <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                <button class="filter-btn" data-filter="advanced">Advanced</button>
+            </div>
+        </section>
+
+        <!-- Trips Grid -->
+        <section class="trips-container">
+            <!-- Trip 1: Gentle Float -->
+            <article class="trip-card beginner">
+                <img src="images/gentle-float.jpg" alt="Gentle river float for beginners">
+                <div class="trip-info">
+                    <h3>Gentle River Float</h3>
+                    <p class="difficulty">Difficulty: <span>Beginner</span></p>
+                    <p class="duration">Duration: 2 hours</p>
+                    <p class="price">Price: $49 per person</p>
+                    <p class="description">Perfect for families and first-time rafters. Float peacefully through scenic
+                        sections with minimal rapids and plenty of wildlife viewing opportunities.</p>
+                    <ul class="trip-features">
+                        <li>No experience necessary</li>
+                        <li>Scenic wildlife viewing</li>
+                        <li>Morning and afternoon departures</li>
+                        <li>Includes snacks</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+
+            <!-- Trip 2: Half-Day Rapids -->
+            <article class="trip-card intermediate">
+                <img src="images/half-day-rapids.jpg" alt="Half-day whitewater rafting adventure">
+                <div class="trip-info">
+                    <h3>Half-Day Rapids Adventure</h3>
+                    <p class="difficulty">Difficulty: <span>Intermediate</span></p>
+                    <p class="duration">Duration: 4 hours</p>
+                    <p class="price">Price: $89 per person</p>
+                    <p class="description">An exciting half-day trip featuring moderate rapids and thrilling sections.
+                        Great for those looking to upgrade from beginner-level trips.</p>
+                    <ul class="trip-features">
+                        <li>Some paddling experience recommended</li>
+                        <li>Mix of calm and rapid sections</li>
+                        <li>Lunch provided</li>
+                        <li>Wetsuit included</li>
+                        <li>Photography available</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+
+            <!-- Trip 3: Grand Canyon Expedition -->
+            <article class="trip-card intermediate" id="grand-canyon">
+                <img src="images/grand-canyon.jpg" alt="Grand Canyon multi-day rafting expedition">
+                <div class="trip-info">
+                    <h3>Grand Canyon Expedition</h3>
+                    <p class="difficulty">Difficulty: <span>Intermediate</span></p>
+                    <p class="duration">Duration: 3-5 days</p>
+                    <p class="price">Price: $1,299 per person</p>
+                    <p class="description">Experience one of the world's most spectacular canyons on this multi-day
+                        expedition. Navigate challenging rapids while camping under starlit skies with breathtaking
+                        canyon views.</p>
+                    <ul class="trip-features">
+                        <li>All meals included</li>
+                        <li>Camping under the stars</li>
+                        <li>Helicopter transport to starting point</li>
+                        <li>Experienced guides</li>
+                        <li>Professional photography</li>
+                        <li>All equipment provided</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+
+            <!-- Trip 4: Extreme Whitewater Challenge -->
+            <article class="trip-card advanced">
+                <img src="images/extreme-whitewater.jpg" alt="Extreme whitewater rafting challenge">
+                <div class="trip-info">
+                    <h3>Extreme Whitewater Challenge</h3>
+                    <p class="difficulty">Difficulty: <span>Advanced</span></p>
+                    <p class="duration">Duration: Full Day (8 hours)</p>
+                    <p class="price">Price: $199 per person</p>
+                    <p class="description">For the most adventurous! Tackle intense rapids, powerful currents, and
+                        thrilling drops. This trip is designed for experienced rafters seeking the ultimate adrenaline
+                        rush.</p>
+                    <ul class="trip-features">
+                        <li>Expert paddling skills required</li>
+                        <li>Class IV & V rapids</li>
+                        <li>Intensive briefing included</li>
+                        <li>Professional guides with rescue training</li>
+                        <li>All meals included</li>
+                        <li>Video package available</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+
+            <!-- Trip 5: Sunset Canyon Tour -->
+            <article class="trip-card beginner">
+                <img src="images/sunset-canyon.jpg" alt="Sunset canyon rafting tour">
+                <div class="trip-info">
+                    <h3>Sunset Canyon Tour</h3>
+                    <p class="difficulty">Difficulty: <span>Beginner</span></p>
+                    <p class="duration">Duration: 3 hours</p>
+                    <p class="price">Price: $69 per person</p>
+                    <p class="description">A romantic and peaceful evening paddle through a stunning canyon. Watch the
+                        sun paint the canyon walls in brilliant colors as you float gently downstream.</p>
+                    <ul class="trip-features">
+                        <li>Easy paddle, scenic views</li>
+                        <li>Perfect for couples and families</li>
+                        <li>Evening departures</li>
+                        <li>Wine and cheese included</li>
+                        <li>Professional photography</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+
+            <!-- Trip 6: Multi-Sport Adventure -->
+            <article class="trip-card advanced">
+                <img src="images/multi-sport.jpg" alt="Multi-sport adventure combining rafting and hiking">
+                <div class="trip-info">
+                    <h3>Multi-Sport Adventure</h3>
+                    <p class="difficulty">Difficulty: <span>Advanced</span></p>
+                    <p class="duration">Duration: 2 days</p>
+                    <p class="price">Price: $399 per person</p>
+                    <p class="description">Combine rafting with hiking and rock climbing. An action-packed weekend
+                        exploring the best of river and mountain adventures with experienced guides.</p>
+                    <ul class="trip-features">
+                        <li>Advanced fitness required</li>
+                        <li>Rafting, hiking, and climbing</li>
+                        <li>Overnight camping</li>
+                        <li>All meals included</li>
+                        <li>Specialized equipment provided</li>
+                        <li>Small group size (max 8 people)</li>
+                    </ul>
+                    <a href="contact.html" class="book-button">Book This Trip</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Trip Information Section -->
+        <section class="trip-info-section">
+            <h2>What to Expect</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>Safety</h3>
+                    <p>All participants receive comprehensive safety instruction. Professional-grade equipment,
+                        certified guides, and emergency protocols ensure a safe experience.</p>
+                </div>
+                <div class="info-item">
+                    <h3>What's Included</h3>
+                    <p>Rafting equipment, professional guide services, and meals (varies by trip). Check individual trip
+                        details for specific inclusions.</p>
+                </div>
+                <div class="info-item">
+                    <h3>Physical Requirements</h3>
+                    <p>Most trips are suitable for various fitness levels. Beginner trips require no experience. Check
+                        trip details or contact us for specific physical requirements.</p>
+                </div>
+                <div class="info-item">
+                    <h3>Best Time to Visit</h3>
+                    <p>Year-round rafting available, with peak seasons in spring (snowmelt) and summer. Each season
+                        offers unique advantages for different trip types.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="trips-cta">
+            <h2>Have Questions?</h2>
+            <p>Our team is ready to help you choose the perfect rafting adventure. Contact us for more information or to
+                make a reservation.</p>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rafting Adventures. All rights reserved.</p>
+        <p>Contact us: info@raftingadventures.com | Phone: (555) 123-4567</p>
+    </footer>
+
+    <script src="scripts/trips.js"></script>
+</body>
+
+</html>
